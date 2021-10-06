@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header clearfix">
+        <div class="container">
+            <nav>
+                <div class="navigation">
+                    <ul class="d-flex">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Информация</a></li>
+                        <li><a href="#">Прайс-лист</a></li>
+                        <li><a href="#">Магазины</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li class="profile"> <a href="#">Вход</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container clearfix">
+            <aside class="sidebar">
+                <form>
+                    <section class="sidebar-section">
+                        <header class="sidebar-header">Бренд</header>
+
+                        <div class="form-group">
+                            <input type="checkbox" name="manufacturer" id="manufacturer1">
+                            <label for="manufacturer1">Сердечко</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="checkbox" name="manufacturer" id="manufacturer2">
+                            <label for="manufacturer2">Биба&Боба</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="checkbox" name="manufacturer" id="manufacturer3">
+                            <label for="manufacturer3">О!Слон</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="checkbox" name="manufacturer" id="manufacturer4">
+                            <label for="manufacturer4">Лоренс</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="checkbox" name="manufacturer" id="manufacturer5">
+                            <label for="manufacturer5">Утинос</label>
+                        </div>
+                    </section>
+
+                    <section class="sidebar-section">
+                        <header class="sidebar-header">Группы товаров</header>
+
+                        <div class="form-group">
+                            <input type="radio" name="group" id="group1">
+                            <label for="group1">Носки</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="radio" name="group" id="group2">
+                            <label for="group2">#НЕноски</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="radio" name="group" id="group3">
+                            <label for="group3">Гольфы</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="radio" name="group" id="group4">
+                            <label for="group4">Укороченные носки</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="radio" name="group" id="group 5">
+                            <label for="group 5">Следы</label>
+                        </div>
+                    </section>
+
+                    <div class="form-group">
+                        <input class="apply-btn" type="submit" value="Применить">
+                    </div>
+                </form>
+            </aside>
+
+            <div class="goods-list">
+                <h1 class="products-category-header">Носочки разных типов</h1>
+
+                <div class="products-list">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/socks1.jpg" alt="socks1">
+                        </div>
+
+                        <div class="product-details">
+                            <header>Носки. Мурзик обыкновенный</header>
+
+                            <p class="information">
+                                Ещё один Есенин, воплощенный в образе кота. Бандит, хулиган и тот самый верный друг, с которым не страшно попасть в переделку. И пусть в переделку, вы скорее всего попадёте из-за него же самого, он же вас оттуда и вытащит. 
+                                А затем потащит в ближайшую подворотню зализывать раны в обществе малознакомых кошечек. 
+                            </p>
+
+                            <div class="control">
+                                <button class="btn">
+                                    <span class="price">
+                                        500 &#8381;
+                                    </span>
+                                    <span class="buy">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/socks2.jpg" alt="socks2">
+                        </div>
+
+                        <div class="product-details">
+                            <header>Носки. Лунные лисы</header>
+
+                            <p class="information">
+                                Не спиться ночью? Тогда эти носочки идеальной длины и мягкости помогут вам сохранить ваши сны и крепко выспаться!
+                            </p>
+
+                            <div class="control">
+                                <button class="btn">
+                                    <span class="price">
+                                        500 &#8381;
+                                    </span>
+                                    <span class="buy">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/socks3.jpg" alt="socks3">
+                        </div>
+
+                        <div class="product-details">
+                            <header>Носки. Забей на любовь</header>
+
+                            <p class="information">
+                                Ты до сих пор паришься по поводу любви? Серьезно? Купи эти носочки и забей уже. 
+                                Твоя половинка уйдет, а вот носочки всегда останутся в шкафчике.
+                            </p>
+
+                            <div class="control">
+                                <button class="btn">
+                                    <span class="price">
+                                        500 &#8381;
+                                    </span>
+                                    <span class="buy">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/socks4.jpg" alt="socks4">
+                        </div>
+
+                        <div class="product-details">
+                            <header>Носки. Путешествие единорога в Ригу</header>
+
+                            <p class="information">
+                                Мы могли бы написать, что это сюжет про единорога Василия, который приехал по грибы в Ленинградскую область, но набрал явно не тех грибочков. Но нет, это история про бабушку подруги нашего дизайнера. 
+                                Когда тошнило кошку, бабушка называла это “уехать в Ригу”. “В Ригу” - от слова “рыгать”, простите. 
+                            </p>
+
+                            <div class="control">
+                                <button class="btn">
+                                    <span class="price">
+                                        500 &#8381;
+                                    </span>
+                                    <span class="buy">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/socks5.jpg" alt="socks5">
+                        </div>
+
+                        <div class="product-details">
+                            <header>Носки. Свой собственный дед</header>
+
+                            <p class="information">
+                                Наши бирюзовые носки с паттерном из мопсов, хоть и не гарантируют полного просветления, но немножечко спокойствия и гармонии всё же гарантированно принесут.
+                            </p>
+
+                            <div class="control">
+                                <button class="btn">
+                                    <span class="price">
+                                        500 &#8381;
+                                    </span>
+                                    <span class="buy">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/socks6.jpg" alt="socks6">
+                        </div>
+
+                        <div class="product-details">
+                            <header>Носки. В погоне за косяком</header>
+
+                            <p class="information">
+                                Интересный рыбак, у которого главная задача поймать косяк. Спросите зачем ему это, то мы не дадим ответ на этот вопрос. Просто смеритесь.
+                            </p>
+
+                            <div class="control">
+                                <button class="btn">
+                                    <span class="price">
+                                        500 &#8381;
+                                    </span>
+                                    <span class="buy">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/socks7.jpg" alt="socks7">
+                        </div>
+
+                        <div class="product-details">
+                            <header>Носки. Немного сиба-ину</header>
+
+                            <p class="information">
+                                Милые носочки с собачкой Сиба-ину, которая подарит вам хорошее настроение. Эти носки излучают радость и дружелюбность. Они будут рады, если вы их купите :) 
+                            </p>
+
+                            <div class="control">
+                                <button class="btn">
+                                    <span class="price">
+                                        500 &#8381;
+                                    </span>
+                                    <span class="buy">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/socks8.jpg" alt="socks8">
+                        </div>
+
+                        <div class="product-details">
+                            <header>Носки. Немного уточек</header>
+
+                            <p class="information">
+                                Морские путешествия утят отслеживались океанологами всего мира и помогли создать подробнейшую карту течений, но только Федору Конюхову удалось поймать дюжину утят и сфотографировать их на лужайке уже на берегу. Сейчас это фото, как и 89% всех фотографий уток в мире, принадлежит компании Disney. Но это не точно.
+                            </p>
+
+                            <div class="control">
+                                <button class="btn">
+                                    <span class="price">
+                                        500 &#8381;
+                                    </span>
+                                    <span class="buy">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/socks9.jpg" alt="socks9">
+                        </div>
+
+                        <div class="product-details">
+                            <header>Носки.Коала</header>
+
+                            <p class="information">
+                                Коалы - вообще не мирные ласковые сумчатые пупсики, как мы привыкли думать.Они кусаются яростно и больно.Истерически рыдают, когда чем-то недовольны. Именно по просьбе Марии Клементиновны из финансового отдела мы и сделали эту партию – для ее сыночка Вовочки, так и не слезшим с её шеи.
+                            </p>
+
+                            <div class="control">
+                                <button class="btn">
+                                    <span class="price">
+                                        500 &#8381;
+                                    </span>
+                                    <span class="buy">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            &copy;ООО "Носочки" 2021 
+        </div>
+    </footer>
+
+</body>
+</html>
